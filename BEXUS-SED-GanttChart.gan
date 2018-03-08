@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-02-01" view-index="0" gantt-divider-location="465" resource-divider-location="300" version="2.8.5" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-06-01" view-index="0" gantt-divider-location="465" resource-divider-location="300" version="2.8.5" locale="en_US">
     <description/>
-    <view zooming-state="default:11" id="gantt-chart">
-        <field id="tpd3" name="Name" width="290" order="0"/>
-        <field id="tpd4" name="Begin date" width="72" order="1"/>
-        <field id="tpd5" name="End date" width="97" order="2"/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Name" width="280" order="0"/>
+        <field id="tpd4" name="Begin date" width="70" order="1"/>
+        <field id="tpd5" name="End date" width="94" order="2"/>
+        <timeline><![CDATA[366]]></timeline>
         <option id="color.recent"><![CDATA[#ff0000 #ff9900 #000000 #cccccc #ffff00 #cccc00 #ffcc00]]></option>
     </view>
     <view id="resource-table">
@@ -65,7 +66,7 @@
             <task id="92" name="Exam Period 6 (EX6)" color="#8cb6ce" meeting="false" start="2018-12-17" duration="5" complete="0" expand="true"/>
             <task id="98" name="Exam Period 7 (EX7)" color="#8cb6ce" meeting="false" start="2019-01-14" duration="5" complete="0" expand="true"/>
         </task>
-        <task id="107" name="Electrical Division" meeting="false" start="2018-01-25" duration="142" complete="0" expand="false">
+        <task id="107" name="Electrical Division" meeting="false" start="2018-01-25" duration="157" complete="0" expand="false">
             <task id="109" name="Select pump" color="#8cb6ce" meeting="false" start="2018-02-22" duration="2" complete="0" expand="true"/>
             <task id="110" name="Find pump on Swedish vendor site" color="#8cb6ce" meeting="true" start="2018-02-26" duration="0" complete="0" expand="true"/>
             <task id="111" name="Order pump" color="#8cb6ce" meeting="false" start="2018-02-26" duration="30" complete="0" expand="true"/>
@@ -88,20 +89,21 @@
             <task id="131" name="Confirm heating requirements, heater placement, number, size" color="#8cb6ce" meeting="false" start="2018-03-12" duration="6" complete="0" expand="true"/>
             <task id="142" name="Print PCB" color="#8cb6ce" meeting="false" start="2018-05-15" duration="10" complete="0" expand="true"/>
             <task id="143" name="Soldering PCB" color="#8cb6ce" meeting="false" start="2018-06-01" duration="1" complete="0" expand="true"/>
-            <task id="132" name="Testing" meeting="false" start="2018-03-12" duration="94" complete="0" expand="false">
-                <task id="164" name="Plan component testing" color="#8cb6ce" meeting="false" start="2018-03-12" duration="2" complete="0" expand="true"/>
-                <task id="137" name="Test: pump, sample size, flow rate, time of sampling" color="#8cb6ce" meeting="false" start="2018-04-13" duration="2" complete="0" expand="true"/>
-                <task id="134" name="Test: breadboard with Arduino, pump, and valves." color="#8cb6ce" meeting="false" start="2018-04-13" duration="2" complete="0" expand="true"/>
-                <task id="136" name="Test: breadboard with arduino and sensors" color="#ff9900" meeting="false" start="2018-04-13" duration="2" complete="0" priority="2" expand="true"/>
-                <task id="138" name="Test: check valves and connections" color="#8cb6ce" meeting="false" start="2018-04-13" duration="2" complete="0" expand="true"/>
-                <task id="139" name="Test: check pump and connections" color="#8cb6ce" meeting="false" start="2018-04-16" duration="5" complete="0" expand="true"/>
-                <task id="140" name="Test: check pump low pressure test with valves and bags" color="#8cb6ce" meeting="false" start="2018-04-16" duration="5" complete="0" expand="true"/>
-                <task id="141" name="Test: thermal with emphasis on pumps and valves" color="#8cb6ce" meeting="false" start="2018-04-16" duration="5" complete="0" expand="true"/>
-                <task id="144" name="Test: PCB, AAC, and CAC integration. Valve center." color="#8cb6ce" meeting="false" start="2018-06-04" duration="10" complete="0" expand="true"/>
-            </task>
             <task id="361" name="Integration with Software" color="#8cb6ce" meeting="false" start="2018-06-01" duration="15" complete="0" expand="true"/>
+            <task id="132" name="Testing" meeting="false" start="2018-03-12" duration="111" complete="0" expand="true">
+                <task id="164" name="Plan component testing" color="#8cb6ce" meeting="false" start="2018-03-12" duration="2" complete="0" expand="true"/>
+                <task id="137" name="Test: Pump, sample size, flow rate, time of sampling" color="#8cb6ce" meeting="false" start="2018-04-13" duration="2" complete="0" expand="true"/>
+                <task id="134" name="Test: Breadboard with Arduino, pump, and valves." color="#8cb6ce" meeting="false" start="2018-04-13" duration="2" complete="0" expand="true"/>
+                <task id="136" name="Test: Breadboard with arduino and sensors" color="#ff9900" meeting="false" start="2018-04-13" duration="2" complete="0" priority="2" expand="true"/>
+                <task id="138" name="Test: Check valves and connections" color="#8cb6ce" meeting="false" start="2018-04-13" duration="2" complete="0" expand="true"/>
+                <task id="139" name="Test: Check pump and connections" color="#8cb6ce" meeting="false" start="2018-04-16" duration="5" complete="0" expand="true"/>
+                <task id="140" name="Test: Check pump low pressure test with valves and bags" color="#8cb6ce" meeting="false" start="2018-04-16" duration="5" complete="0" expand="true"/>
+                <task id="141" name="Test: Thermal with emphasis on pumps and valves" color="#8cb6ce" meeting="false" start="2018-04-16" duration="5" complete="0" expand="true"/>
+                <task id="144" name="Test: PCB, AAC, and CAC integration. Valve center." color="#8cb6ce" meeting="false" start="2018-06-04" duration="10" complete="0" expand="true"/>
+                <task id="380" name="Test: Integration with electrical" meeting="false" start="2018-06-15" duration="16" complete="0" expand="true"/>
+            </task>
         </task>
-        <task id="250" name="Software Division" meeting="false" start="2018-02-22" duration="114" complete="0" expand="false">
+        <task id="250" name="Software Division" meeting="false" start="2018-02-22" duration="129" complete="0" expand="false">
             <task id="252" name="Acquire Arduino Due and ethernet shield" color="#8cb6ce" meeting="false" start="2018-02-22" duration="15" complete="0" expand="true"/>
             <task id="253" name="Design &amp; record telecomand &amp; telemetry package" color="#8cb6ce" meeting="false" start="2018-02-27" duration="1" complete="0" expand="true"/>
             <task id="254" name="Sequence diagram for telecommand" color="#8cb6ce" meeting="true" start="2018-03-12" duration="0" complete="0" expand="true"/>
@@ -115,14 +117,15 @@
             <task id="262" name="Make interface document (Pins)" color="#8cb6ce" meeting="true" start="2018-04-29" duration="0" complete="0" expand="true"/>
             <task id="263" name="Write ground section and code" color="#8cb6ce" meeting="false" start="2018-04-01" duration="23" complete="0" expand="true"/>
             <task id="264" name="Write GS manual" color="#8cb6ce" meeting="false" start="2018-04-23" duration="8" complete="0" expand="true"/>
-            <task id="265" name="Testing" meeting="false" start="2018-04-30" duration="35" complete="0" expand="false">
+            <task id="362" name="Integration with Electrical" color="#8cb6ce" meeting="false" start="2018-06-01" duration="15" complete="0" expand="true"/>
+            <task id="265" name="Testing" meeting="false" start="2018-04-30" duration="62" complete="0" expand="true">
                 <task id="267" name="Test: GS-OBC connection" color="#8cb6ce" meeting="false" start="2018-04-30" duration="7" complete="0" expand="true"/>
                 <task id="268" name="Test: GS can reprogram the software" color="#8cb6ce" meeting="false" start="2018-05-07" duration="7" complete="0" expand="true"/>
                 <task id="269" name="Test: Running software for 10 hours (no overflows)" color="#8cb6ce" meeting="false" start="2018-05-14" duration="7" complete="0" expand="true"/>
                 <task id="270" name="Test: Invalid commands for GS-OBC" color="#8cb6ce" meeting="false" start="2018-05-20" duration="8" complete="0" expand="true"/>
-                <task id="271" name="Test: Integration testing" color="#8cb6ce" meeting="false" start="2018-05-28" duration="7" complete="0" expand="true"/>
+                <task id="271" name="Test: Software integration testing" color="#8cb6ce" meeting="false" start="2018-05-28" duration="7" complete="0" expand="true"/>
+                <task id="372" name="Test: Integration with software" color="#8cb6ce" meeting="false" start="2018-06-15" duration="16" complete="0" expand="true"/>
             </task>
-            <task id="362" name="Integration with Electrical" color="#8cb6ce" meeting="false" start="2018-06-01" duration="15" complete="0" expand="true"/>
         </task>
         <task id="188" name="Mechanical Division" meeting="false" start="2018-02-26" duration="202" complete="0" expand="false">
             <task id="191" name="Design the new configuration" color="#8cb6ce" meeting="false" start="2018-02-26" duration="11" complete="0" expand="true"/>
@@ -151,15 +154,21 @@
                 <task id="215" name="Test: mechanical interfaces" color="#8cb6ce" meeting="false" start="2018-08-01" duration="46" complete="0" expand="true"/>
             </task>
         </task>
-        <task id="345" name="Science Division" meeting="false" start="2018-02-22" duration="68" complete="0" expand="false">
+        <task id="345" name="Science Division" meeting="false" start="2018-01-16" duration="365" complete="0" expand="true">
             <task id="347" name="Bags vs Canisters decision" color="#8cb6ce" meeting="true" start="2018-02-23" duration="0" complete="0" expand="true"/>
             <task id="348" name="Understand maths of sampling/test. Flow rate requirements" color="#8cb6ce" meeting="false" start="2018-02-22" duration="3" complete="0" expand="true"/>
             <task id="349" name="Similarity with LISA (the paper Lightweight Stratospheric Air Sample)" color="#8cb6ce" meeting="true" start="2018-02-22" duration="0" complete="0" expand="true"/>
             <task id="351" name="Calculate endothermal analysis (i.e. atmosphere and sun)" color="#8cb6ce" meeting="true" start="2018-02-22" duration="0" complete="0" expand="true"/>
             <task id="359" name="Obtain empirical model" color="#8cb6ce" meeting="false" start="2018-03-02" duration="11" complete="0" expand="true"/>
             <task id="365" name="Determing sampling altitudes" color="#8cb6ce" meeting="true" start="2018-05-01" duration="0" complete="0" expand="true"/>
+            <task id="366" name="Find out how Piacaro analyser works" color="#8cb6ce" meeting="false" start="2018-08-30" duration="4" complete="0" expand="true"/>
+            <task id="387" name="Post-flight analysis" color="#8cb6ce" meeting="false" start="2018-10-22" duration="28" complete="0" expand="true"/>
+            <task id="388" name="Write research paper" meeting="false" start="2018-11-19" duration="58" complete="0" expand="true"/>
+            <task id="394" name="Publish research paper" meeting="false" start="2018-01-16" duration="16" complete="0" expand="true"/>
         </task>
-        <task id="358" name="Thermal Diviion" meeting="false" start="2018-02-01" duration="1" complete="0" expand="true"/>
+        <task id="358" name="Thermal Diviion" meeting="false" start="2018-03-01" duration="4" complete="0" expand="true">
+            <task id="369" name="Update thermal design" color="#8cb6ce" meeting="false" start="2018-03-01" duration="4" complete="0" expand="true"/>
+        </task>
     </tasks>
     <resources/>
     <allocations/>
