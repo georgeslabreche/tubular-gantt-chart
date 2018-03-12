@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-01-01" view-index="0" gantt-divider-location="405" resource-divider-location="300" version="2.8.5" locale="en_US">
-    <description/>
+<?xml version="1.0" encoding="UTF-8"?><project name="TUBULAR" company="" webLink="http://tubularbex.us" view-date="2018-01-01" view-index="0" gantt-divider-location="469" resource-divider-location="300" version="2.8.5" locale="en_US">
+    <description><![CDATA[Alternative to AirCore for Atmospheric Greenhouse Gas Sampling]]></description>
     <view zooming-state="default:10" id="gantt-chart">
-        <field id="tpd3" name="Name" width="240" order="0"/>
-        <field id="tpd4" name="Begin date" width="62" order="1"/>
-        <field id="tpd5" name="End date" width="82" order="2"/>
+        <field id="tpd3" name="Name" width="306" order="0"/>
+        <field id="tpd4" name="Begin date" width="72" order="1"/>
+        <field id="tpd5" name="End date" width="70" order="2"/>
         <timeline><![CDATA[366]]></timeline>
         <option id="color.recent"><![CDATA[#ff0000 #ff9900 #000000 #cccccc #ffff00 #cccc00 #ffcc00]]></option>
     </view>
@@ -58,7 +58,7 @@
             <task id="56" name="Integration Progress Review (IPR)" color="#ff9900" meeting="false" start="2018-07-23" duration="5" complete="0" expand="true"/>
             <task id="57" name="Experiment Acceptance Review (EAR)" color="#ff9900" meeting="false" start="2018-10-01" duration="5" complete="0" expand="true"/>
         </task>
-        <task id="107" name="Electrical Division" meeting="false" start="2018-01-25" duration="157" complete="0" expand="false">
+        <task id="107" name="Electrical Division" meeting="false" start="2018-01-25" duration="157" complete="0" expand="true">
             <task id="109" name="Select pump" color="#8cb6ce" meeting="false" start="2018-02-22" duration="2" complete="0" expand="true"/>
             <task id="110" name="Find pump on Swedish vendor site" color="#8cb6ce" meeting="true" start="2018-02-26" duration="0" complete="0" expand="true"/>
             <task id="111" name="Order pump" color="#8cb6ce" meeting="false" start="2018-02-26" duration="30" complete="0" expand="true"/>
@@ -95,7 +95,7 @@
                 <task id="380" name="Test: Integration with electrical" meeting="false" start="2018-06-15" duration="16" complete="0" expand="true"/>
             </task>
         </task>
-        <task id="250" name="Software Division" meeting="false" start="2018-02-22" duration="129" complete="0" expand="false">
+        <task id="250" name="Software Division" meeting="false" start="2018-02-22" duration="129" complete="0" expand="true">
             <task id="252" name="Acquire Arduino Due and ethernet shield" color="#8cb6ce" meeting="false" start="2018-02-22" duration="15" complete="0" expand="true"/>
             <task id="253" name="Design &amp; record telecomand &amp; telemetry package" color="#8cb6ce" meeting="false" start="2018-02-27" duration="1" complete="0" expand="true"/>
             <task id="254" name="Sequence diagram for telecommand" color="#8cb6ce" meeting="true" start="2018-03-12" duration="0" complete="0" expand="true"/>
@@ -119,7 +119,7 @@
                 <task id="372" name="Test: Integration with software" color="#8cb6ce" meeting="false" start="2018-06-15" duration="16" complete="0" expand="true"/>
             </task>
         </task>
-        <task id="188" name="Mechanical Division" meeting="false" start="2018-02-26" duration="202" complete="0" expand="false">
+        <task id="188" name="Mechanical Division" meeting="false" start="2018-02-26" duration="202" complete="0" expand="true">
             <task id="191" name="Design the new configuration" color="#8cb6ce" meeting="false" start="2018-02-26" duration="11" complete="0" expand="true"/>
             <task id="192" name="Decide on locations of external connections" color="#8cb6ce" meeting="false" start="2018-02-26" duration="11" complete="0" expand="true"/>
             <task id="193" name="Agree on new designs with programme organizers" color="#8cb6ce" meeting="false" start="2018-02-26" duration="11" complete="0" expand="true"/>
@@ -138,7 +138,7 @@
             <task id="244" name="Build the walls (aluminium sheet, PE FOAM insulation sterofoam)" color="#8cb6ce" meeting="false" start="2018-07-25" duration="5" complete="0" expand="true"/>
             <task id="245" name="Make holes in the walls for the external connections" color="#8cb6ce" meeting="false" start="2018-07-25" duration="5" complete="0" expand="true"/>
             <task id="246" name="Attach the walls to the structure" color="#8cb6ce" meeting="false" start="2018-07-25" duration="5" complete="0" expand="true"/>
-            <task id="208" name="Testing" meeting="false" start="2018-08-01" duration="46" complete="0" expand="false">
+            <task id="208" name="Testing" meeting="false" start="2018-08-01" duration="46" complete="0" expand="true">
                 <task id="210" name="Test: vibration" color="#8cb6ce" meeting="false" start="2018-08-01" duration="46" complete="0" expand="true"/>
                 <task id="211" name="Test: shock" color="#8cb6ce" meeting="false" start="2018-08-01" duration="46" complete="0" expand="true"/>
                 <task id="213" name="Test: thermal" color="#8cb6ce" meeting="false" start="2018-08-01" duration="46" complete="0" expand="true"/>
@@ -146,23 +146,35 @@
                 <task id="215" name="Test: mechanical interfaces" color="#8cb6ce" meeting="false" start="2018-08-01" duration="46" complete="0" expand="true"/>
             </task>
         </task>
-        <task id="345" name="Science Division" meeting="false" start="2018-01-16" duration="365" complete="0" expand="false">
+        <task id="345" name="Science Division" meeting="false" start="2018-01-16" duration="365" complete="0" expand="true">
             <task id="347" name="Bags vs Canisters decision" color="#8cb6ce" meeting="true" start="2018-02-23" duration="0" complete="0" expand="true"/>
             <task id="348" name="Understand maths of sampling/test. Flow rate requirements" color="#8cb6ce" meeting="false" start="2018-02-22" duration="3" complete="0" expand="true"/>
             <task id="349" name="Similarity with LISA (the paper Lightweight Stratospheric Air Sample)" color="#8cb6ce" meeting="true" start="2018-02-22" duration="0" complete="0" expand="true"/>
             <task id="351" name="Calculate endothermal analysis (i.e. atmosphere and sun)" color="#8cb6ce" meeting="true" start="2018-02-22" duration="0" complete="0" expand="true"/>
             <task id="359" name="Obtain empirical model" color="#8cb6ce" meeting="false" start="2018-03-02" duration="11" complete="0" expand="true"/>
+            <task id="413" name="MATLAB simulation of flight" meeting="false" start="2018-03-12" duration="7" complete="0" expand="true"/>
+            <task id="414" name="Model/simulation of sampling" meeting="false" start="2018-03-25" duration="22" complete="0" expand="true"/>
             <task id="365" name="Determing sampling altitudes" color="#8cb6ce" meeting="true" start="2018-05-01" duration="0" complete="0" expand="true"/>
+            <task id="430" name="Understand how chromatographer works" meeting="false" start="2018-05-14" duration="7" complete="0" expand="true"/>
+            <task id="432" name="FMI site visit / AirCore tube retrieval" meeting="false" start="2018-07-01" duration="7" complete="0" expand="true"/>
             <task id="366" name="Find out how Piacaro analyser works" color="#8cb6ce" meeting="false" start="2018-08-30" duration="4" complete="0" expand="true"/>
             <task id="387" name="Post-flight analysis" color="#8cb6ce" meeting="false" start="2018-10-22" duration="28" complete="0" expand="true"/>
             <task id="388" name="Write research paper" meeting="false" start="2018-11-19" duration="58" complete="0" expand="true"/>
             <task id="394" name="Publish research paper" meeting="false" start="2018-01-16" duration="16" complete="0" expand="true"/>
+            <task id="421" name="Testing" meeting="false" start="2018-04-09" duration="37" complete="0" expand="true">
+                <task id="423" name="Test: planning / sampling methodology" meeting="false" start="2018-04-09" duration="7" complete="0" expand="true"/>
+                <task id="424" name="Test: sampling" color="#8cb6ce" meeting="false" start="2018-04-16" duration="7" complete="0" expand="true"/>
+                <task id="425" name="Analyse sampling test results" meeting="false" start="2018-04-30" duration="16" complete="0" expand="true"/>
+                <task id="426" name="Test: bag condensation test" meeting="false" start="2018-04-23" duration="7" complete="0" expand="true"/>
+            </task>
         </task>
-        <task id="358" name="Thermal Diviion" meeting="false" start="2018-02-24" duration="9" complete="0" expand="false">
+        <task id="358" name="Thermal Diviion" meeting="false" start="2018-02-24" duration="34" complete="0" expand="true">
             <task id="397" name="Calculate exothermal analysis" meeting="false" start="2018-02-24" duration="3" complete="0" expand="true"/>
             <task id="369" name="Update thermal design" color="#8cb6ce" meeting="false" start="2018-03-01" duration="4" complete="0" expand="true"/>
+            <task id="435" name="Onboard new thermal team member" meeting="false" start="2018-03-15" duration="11" complete="0" expand="true"/>
+            <task id="433" name="Planned long term thermal tasks" color="#8cb6ce" meeting="true" start="2018-03-30" duration="0" complete="0" expand="true"/>
         </task>
-        <task id="39" name="Exam Periods" meeting="false" start="2018-01-08" duration="376" complete="0" expand="false">
+        <task id="39" name="Exam Periods" meeting="false" start="2018-01-08" duration="376" complete="0" expand="true">
             <task id="42" name="Exam Period 1 (EX1)" color="#8cb6ce" meeting="false" start="2018-01-08" duration="5" complete="0" expand="true"/>
             <task id="46" name="Exam Period 2 (EX2)" color="#8cb6ce" meeting="false" start="2018-03-12" duration="10" complete="0" expand="true"/>
             <task id="47" name="Exam Period 3 (EX3)" color="#8cb6ce" meeting="false" start="2018-05-23" duration="8" complete="0" expand="true"/>
@@ -171,7 +183,7 @@
             <task id="92" name="Exam Period 6 (EX6)" color="#8cb6ce" meeting="false" start="2018-12-17" duration="5" complete="0" expand="true"/>
             <task id="98" name="Exam Period 7 (EX7)" color="#8cb6ce" meeting="false" start="2019-01-14" duration="5" complete="0" expand="true"/>
         </task>
-        <task id="409" name="Integration Testing" meeting="false" start="2018-09-01" duration="42" complete="0" expand="false">
+        <task id="409" name="Integration Testing" meeting="false" start="2018-09-01" duration="42" complete="0" expand="true">
             <task id="410" name="Integration Testing" color="#8cb6ce" meeting="false" start="2018-09-01" duration="40" complete="0" expand="true"/>
             <task id="411" name="Pre-flight testing" color="#8cb6ce" meeting="false" start="2018-10-08" duration="5" complete="0" expand="true"/>
         </task>
