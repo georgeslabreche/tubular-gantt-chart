@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-06-01" view-index="0" gantt-divider-location="465" resource-divider-location="300" version="2.8.5" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-01-01" view-index="0" gantt-divider-location="405" resource-divider-location="300" version="2.8.5" locale="en_US">
     <description/>
-    <view zooming-state="default:8" id="gantt-chart">
-        <field id="tpd3" name="Name" width="280" order="0"/>
-        <field id="tpd4" name="Begin date" width="70" order="1"/>
-        <field id="tpd5" name="End date" width="94" order="2"/>
+    <view zooming-state="default:10" id="gantt-chart">
+        <field id="tpd3" name="Name" width="240" order="0"/>
+        <field id="tpd4" name="Begin date" width="62" order="1"/>
+        <field id="tpd5" name="End date" width="82" order="2"/>
         <timeline><![CDATA[366]]></timeline>
         <option id="color.recent"><![CDATA[#ff0000 #ff9900 #000000 #cccccc #ffff00 #cccc00 #ffcc00]]></option>
     </view>
@@ -35,15 +35,16 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="58" name="Stages" meeting="false" start="2018-01-03" duration="379" complete="0" expand="false">
+        <task id="58" name="Stages" meeting="false" start="2018-01-03" duration="379" complete="0" expand="true">
             <task id="60" name="Preliminary Design" color="#8cb6ce" meeting="false" start="2018-01-03" duration="28" complete="0" expand="true"/>
             <task id="61" name="Critical Design" color="#8cb6ce" meeting="false" start="2018-02-12" duration="70" complete="0" expand="true"/>
             <task id="62" name="Experiment Building and Testing" color="#8cb6ce" meeting="false" start="2018-05-21" duration="45" complete="0" expand="true"/>
+            <task id="400" name="Integration Progress Reviews" color="#8cb6ce" meeting="false" start="2018-07-24" duration="5" complete="0" expand="true"/>
             <task id="63" name="Final Experiment Preparations" color="#8cb6ce" meeting="false" start="2018-07-30" duration="45" complete="0" expand="true"/>
             <task id="101" name="Launch Campaign" color="#ff0000" meeting="false" start="2018-10-15" duration="10" complete="0" expand="true"/>
             <task id="64" name="Data Analysis and Reporting" color="#8cb6ce" meeting="false" start="2018-11-12" duration="66" complete="0" expand="true"/>
         </task>
-        <task id="19" name="Student Experiment Documentation" color="#000000" meeting="false" start="2018-01-15" duration="367" complete="0" expand="false">
+        <task id="19" name="Student Experiment Documentation" color="#000000" meeting="false" start="2018-01-15" duration="367" complete="0" expand="true">
             <task id="20" name="SEDv1-0" color="#ff9900" meeting="true" start="2018-01-15" duration="0" complete="0" priority="2" expand="true"/>
             <task id="105" name="SEDv1-2" color="#ff9900" meeting="true" start="2018-03-12" duration="0" complete="0" priority="2" expand="true"/>
             <task id="21" name="SEDv2-0" color="#ff9900" meeting="true" start="2018-05-14" duration="0" complete="0" expand="true"/>
@@ -51,20 +52,11 @@
             <task id="23" name="SEDv4-0" color="#ff9900" meeting="true" start="2018-09-17" duration="0" complete="0" expand="true"/>
             <task id="24" name="SEDv5-0" color="#ff9900" meeting="false" start="2018-11-12" duration="66" complete="0" expand="true"/>
         </task>
-        <task id="25" name="Reviews" meeting="false" start="2018-02-05" duration="243" complete="0" expand="false">
+        <task id="25" name="Reviews" meeting="false" start="2018-02-05" duration="243" complete="0" expand="true">
             <task id="30" name="Preliminary Design Review (PDR)" color="#ff9900" meeting="false" start="2018-02-05" duration="5" complete="0" expand="true"/>
             <task id="55" name="Critical Design Review (CDR)" color="#ff9900" meeting="false" start="2018-05-21" duration="5" complete="0" expand="true"/>
             <task id="56" name="Integration Progress Review (IPR)" color="#ff9900" meeting="false" start="2018-07-23" duration="5" complete="0" expand="true"/>
             <task id="57" name="Experiment Acceptance Review (EAR)" color="#ff9900" meeting="false" start="2018-10-01" duration="5" complete="0" expand="true"/>
-        </task>
-        <task id="39" name="Exam Periods" meeting="false" start="2018-01-08" duration="376" complete="0" expand="false">
-            <task id="42" name="Exam Period 1 (EX1)" color="#8cb6ce" meeting="false" start="2018-01-08" duration="5" complete="0" expand="true"/>
-            <task id="46" name="Exam Period 2 (EX2)" color="#8cb6ce" meeting="false" start="2018-03-12" duration="10" complete="0" expand="true"/>
-            <task id="47" name="Exam Period 3 (EX3)" color="#8cb6ce" meeting="false" start="2018-05-23" duration="8" complete="0" expand="true"/>
-            <task id="48" name="Exam Period 4 (EX4)" color="#8cb6ce" meeting="false" start="2018-08-13" duration="10" complete="0" expand="true"/>
-            <task id="91" name="Exam Period 5 (EX5)" color="#8cb6ce" meeting="false" start="2018-10-15" duration="10" complete="0" expand="true"/>
-            <task id="92" name="Exam Period 6 (EX6)" color="#8cb6ce" meeting="false" start="2018-12-17" duration="5" complete="0" expand="true"/>
-            <task id="98" name="Exam Period 7 (EX7)" color="#8cb6ce" meeting="false" start="2019-01-14" duration="5" complete="0" expand="true"/>
         </task>
         <task id="107" name="Electrical Division" meeting="false" start="2018-01-25" duration="157" complete="0" expand="false">
             <task id="109" name="Select pump" color="#8cb6ce" meeting="false" start="2018-02-22" duration="2" complete="0" expand="true"/>
@@ -154,7 +146,7 @@
                 <task id="215" name="Test: mechanical interfaces" color="#8cb6ce" meeting="false" start="2018-08-01" duration="46" complete="0" expand="true"/>
             </task>
         </task>
-        <task id="345" name="Science Division" meeting="false" start="2018-01-16" duration="365" complete="0" expand="true">
+        <task id="345" name="Science Division" meeting="false" start="2018-01-16" duration="365" complete="0" expand="false">
             <task id="347" name="Bags vs Canisters decision" color="#8cb6ce" meeting="true" start="2018-02-23" duration="0" complete="0" expand="true"/>
             <task id="348" name="Understand maths of sampling/test. Flow rate requirements" color="#8cb6ce" meeting="false" start="2018-02-22" duration="3" complete="0" expand="true"/>
             <task id="349" name="Similarity with LISA (the paper Lightweight Stratospheric Air Sample)" color="#8cb6ce" meeting="true" start="2018-02-22" duration="0" complete="0" expand="true"/>
@@ -166,8 +158,22 @@
             <task id="388" name="Write research paper" meeting="false" start="2018-11-19" duration="58" complete="0" expand="true"/>
             <task id="394" name="Publish research paper" meeting="false" start="2018-01-16" duration="16" complete="0" expand="true"/>
         </task>
-        <task id="358" name="Thermal Diviion" meeting="false" start="2018-03-01" duration="4" complete="0" expand="true">
+        <task id="358" name="Thermal Diviion" meeting="false" start="2018-02-24" duration="9" complete="0" expand="false">
+            <task id="397" name="Calculate exothermal analysis" meeting="false" start="2018-02-24" duration="3" complete="0" expand="true"/>
             <task id="369" name="Update thermal design" color="#8cb6ce" meeting="false" start="2018-03-01" duration="4" complete="0" expand="true"/>
+        </task>
+        <task id="39" name="Exam Periods" meeting="false" start="2018-01-08" duration="376" complete="0" expand="false">
+            <task id="42" name="Exam Period 1 (EX1)" color="#8cb6ce" meeting="false" start="2018-01-08" duration="5" complete="0" expand="true"/>
+            <task id="46" name="Exam Period 2 (EX2)" color="#8cb6ce" meeting="false" start="2018-03-12" duration="10" complete="0" expand="true"/>
+            <task id="47" name="Exam Period 3 (EX3)" color="#8cb6ce" meeting="false" start="2018-05-23" duration="8" complete="0" expand="true"/>
+            <task id="48" name="Exam Period 4 (EX4)" color="#8cb6ce" meeting="false" start="2018-08-13" duration="10" complete="0" expand="true"/>
+            <task id="91" name="Exam Period 5 (EX5)" color="#8cb6ce" meeting="false" start="2018-10-15" duration="10" complete="0" expand="true"/>
+            <task id="92" name="Exam Period 6 (EX6)" color="#8cb6ce" meeting="false" start="2018-12-17" duration="5" complete="0" expand="true"/>
+            <task id="98" name="Exam Period 7 (EX7)" color="#8cb6ce" meeting="false" start="2019-01-14" duration="5" complete="0" expand="true"/>
+        </task>
+        <task id="409" name="Integration Testing" meeting="false" start="2018-09-01" duration="42" complete="0" expand="false">
+            <task id="410" name="Integration Testing" color="#8cb6ce" meeting="false" start="2018-09-01" duration="40" complete="0" expand="true"/>
+            <task id="411" name="Pre-flight testing" color="#8cb6ce" meeting="false" start="2018-10-08" duration="5" complete="0" expand="true"/>
         </task>
     </tasks>
     <resources/>
