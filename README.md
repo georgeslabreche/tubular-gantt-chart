@@ -1,4 +1,4 @@
-# tubular-gantt-chart
+# TUBULAR Gantt Chart
 Tubular Gantt Chart using GanttProject app: http://www.ganttproject.biz/
 
 # Instructions
