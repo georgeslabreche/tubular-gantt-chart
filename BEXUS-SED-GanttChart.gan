@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="TUBULAR" company="" webLink="http://tubularbex.us" view-date="2018-01-01" view-index="0" gantt-divider-location="469" resource-divider-location="300" version="2.8.5" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="TUBULAR" company="" webLink="http://tubularbex.us" view-date="2017-02-01" view-index="0" gantt-divider-location="568" resource-divider-location="300" version="2.8.6" locale="sv">
     <description><![CDATA[Alternative to AirCore for Atmospheric Greenhouse Gas Sampling]]></description>
-    <view zooming-state="default:10" id="gantt-chart">
-        <field id="tpd3" name="Name" width="306" order="0"/>
-        <field id="tpd4" name="Begin date" width="72" order="1"/>
-        <field id="tpd5" name="End date" width="70" order="2"/>
+    <view zooming-state="default:11" id="gantt-chart">
+        <field id="tpd3" name="Namn" width="340" order="0"/>
+        <field id="tpd4" name="Startdatum" width="105" order="1"/>
+        <field id="tpd5" name="Slutdatum" width="104" order="2"/>
         <timeline><![CDATA[366]]></timeline>
         <option id="color.recent"><![CDATA[#ff0000 #ff9900 #000000 #cccccc #ffff00 #cccc00 #ffcc00]]></option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Name" width="209" order="0"/>
-        <field id="1" name="Default role" width="85" order="1"/>
+        <field id="0" name="Namn" width="210" order="0"/>
+        <field id="1" name="Standard roll" width="86" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -168,11 +168,27 @@
                 <task id="426" name="Test: bag condensation test" meeting="false" start="2018-04-23" duration="7" complete="0" expand="true"/>
             </task>
         </task>
-        <task id="358" name="Thermal Diviion" meeting="false" start="2018-02-24" duration="34" complete="0" expand="true">
+        <task id="358" name="Thermal Diviion" meeting="false" start="2018-02-24" duration="189" complete="0" expand="true">
             <task id="397" name="Calculate exothermal analysis" meeting="false" start="2018-02-24" duration="3" complete="0" expand="true"/>
             <task id="369" name="Update thermal design" color="#8cb6ce" meeting="false" start="2018-03-01" duration="4" complete="0" expand="true"/>
             <task id="435" name="Onboard new thermal team member" meeting="false" start="2018-03-15" duration="11" complete="0" expand="true"/>
             <task id="433" name="Planned long term thermal tasks" color="#8cb6ce" meeting="true" start="2018-03-30" duration="0" complete="0" expand="true"/>
+            <task id="436" name="Finish calculate Solar Flux and Albedo Flux" meeting="false" start="2018-04-06" duration="6" complete="0" expand="true"/>
+            <task id="437" name="Calculate the Earth IR Flux" meeting="false" start="2018-04-06" duration="6" complete="0" expand="true"/>
+            <task id="438" name="Calculate Dissipated heat and Convection" meeting="false" start="2018-04-12" duration="8" complete="0" expand="true"/>
+            <task id="439" name="Preparations for simulations" meeting="false" start="2018-04-12" duration="8" complete="0" expand="true"/>
+            <task id="440" name="Simulate the heat and analyse simulations" meeting="false" start="2018-04-20" duration="11" complete="0" expand="true"/>
+            <task id="441" name="Document results from calculations and simulations and define tests" meeting="false" start="2018-04-20" duration="11" complete="0" expand="true"/>
+            <task id="443" name="Extra time for simulations and calculations if changes occure from electronics or mechanical" meeting="false" start="2018-05-01" duration="5" complete="0" expand="true"/>
+            <task id="444" name="Document thermal analysis for CDR" meeting="false" start="2018-05-01" duration="13" complete="0" expand="true"/>
+            <task id="446" name="Check and perfect documentation for CDR" meeting="false" start="2018-05-11" duration="3" complete="0" expand="true"/>
+            <task id="448" name="Fix suggestions from CDR, redo simulations and calculations if needed." meeting="false" start="2018-06-01" duration="30" complete="0" expand="true"/>
+            <task id="449" name="Help in building" meeting="false" start="2018-07-01" duration="62" complete="0" expand="true"/>
+            <task id="451" name="Testing" meeting="false" start="2018-08-01" duration="31" complete="0" expand="true">
+                <task id="452" name="Thermal test: floating phase" meeting="false" start="2018-08-01" duration="31" complete="0" expand="true"/>
+                <task id="453" name="Thermal test: temperature decrease while waiting for recovery" meeting="false" start="2018-08-01" duration="31" complete="0" expand="true"/>
+                <task id="456" name="Thermal test: test insulation for all boxes and validate with simulations" meeting="false" start="2018-08-01" duration="31" complete="0" expand="true"/>
+            </task>
         </task>
         <task id="39" name="Exam Periods" meeting="false" start="2018-01-08" duration="376" complete="0" expand="true">
             <task id="42" name="Exam Period 1 (EX1)" color="#8cb6ce" meeting="false" start="2018-01-08" duration="5" complete="0" expand="true"/>
