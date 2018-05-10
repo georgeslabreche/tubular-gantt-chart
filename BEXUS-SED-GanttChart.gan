@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="TUBULAR" company="" webLink="http://tubularbex.us" view-date="2017-02-01" view-index="0" gantt-divider-location="568" resource-divider-location="300" version="2.8.7" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="TUBULAR" company="" webLink="http://tubularbex.us" view-date="2018-06-17" view-index="0" gantt-divider-location="568" resource-divider-location="300" version="2.8.5" locale="en_US">
     <description><![CDATA[Alternative to AirCore for Atmospheric Greenhouse Gas Sampling]]></description>
-    <view zooming-state="default:11" id="gantt-chart">
-        <field id="tpd3" name="Name" width="340" order="0"/>
-        <field id="tpd4" name="Begin date" width="105" order="1"/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Name" width="339" order="0"/>
+        <field id="tpd4" name="Begin date" width="104" order="1"/>
         <field id="tpd5" name="End date" width="104" order="2"/>
         <timeline><![CDATA[366]]></timeline>
-        <option id="color.recent"><![CDATA[#ff0000 #ff9900 #000000 #cccccc #ffff00 #cccc00 #ffcc00]]></option>
+        <option id="color.recent"><![CDATA[#ff6600 #ff0000 #ff9900 #000000 #cccccc #ffff00 #cccc00 #ffcc00]]></option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Name" width="210" order="0"/>
-        <field id="1" name="Default role" width="86" order="1"/>
+        <field id="0" name="Name" width="209" order="0"/>
+        <field id="1" name="Default role" width="85" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -95,7 +95,7 @@
                 <task id="380" name="Test: Integration with electrical" meeting="false" start="2018-06-15" duration="16" complete="0" expand="true"/>
             </task>
         </task>
-        <task id="250" name="Software Division" meeting="false" start="2018-02-22" duration="206" complete="0" expand="true">
+        <task id="250" name="Software Division" meeting="false" start="2018-02-22" duration="205" complete="0" expand="true">
             <task id="252" name="Acquire Arduino Due and ethernet shield" color="#8cb6ce" meeting="false" start="2018-02-22" duration="15" complete="0" expand="true"/>
             <task id="253" name="Design &amp; record telecomand &amp; telemetry package" color="#8cb6ce" meeting="false" start="2018-02-27" duration="1" complete="0" expand="true"/>
             <task id="254" name="Sequence diagram for telecommand" color="#8cb6ce" meeting="true" start="2018-03-12" duration="0" complete="0" expand="true"/>
@@ -110,6 +110,7 @@
             <task id="263" name="Write ground section and code" color="#8cb6ce" meeting="false" start="2018-04-01" duration="23" complete="0" expand="true"/>
             <task id="264" name="Write GS manual" color="#8cb6ce" meeting="false" start="2018-04-23" duration="8" complete="0" expand="true"/>
             <task id="362" name="Integration with Electrical" color="#8cb6ce" meeting="false" start="2018-06-01" duration="15" complete="0" expand="true"/>
+            <task id="458" name="Software freeze date" color="#ff6600" meeting="true" start="2018-09-15" duration="0" complete="0" thirdDate="2017-09-15" thirdDate-constraint="0" expand="true"/>
             <task id="265" name="Testing" meeting="false" start="2018-04-30" duration="62" complete="0" expand="true">
                 <task id="267" name="Test: GS-OBC connection" color="#8cb6ce" meeting="false" start="2018-04-30" duration="7" complete="0" expand="true"/>
                 <task id="466" name="Test: Verify data return correctly" color="#8cb6ce" meeting="false" start="2018-06-08" duration="1" complete="0" thirdDate="2017-02-01" thirdDate-constraint="0" expand="true"/>
@@ -119,7 +120,6 @@
                 <task id="271" name="Test: Software integration testing" color="#8cb6ce" meeting="false" start="2018-05-28" duration="7" complete="0" expand="true"/>
                 <task id="372" name="Test: Integration with software" color="#8cb6ce" meeting="false" start="2018-06-15" duration="16" complete="0" expand="true"/>
             </task>
-            <task id="458" name="Software freeze date" color="#8cb6ce" meeting="false" start="2018-09-15" duration="1" complete="0" thirdDate="2017-09-15" thirdDate-constraint="0" expand="true"/>
         </task>
         <task id="188" name="Mechanical Division" meeting="false" start="2018-02-26" duration="202" complete="0" expand="true">
             <task id="191" name="Design the new configuration" color="#8cb6ce" meeting="false" start="2018-02-26" duration="11" complete="0" expand="true"/>
